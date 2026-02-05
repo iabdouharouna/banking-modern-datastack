@@ -1,0 +1,82 @@
+[0m10:42:50.095601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea6ea3820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea5d44df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea5d44d90>]}
+
+
+============================== 10:42:50.099950 | d29b04e9-78cb-47d2-a04d-c99e863122ea ==============================
+[0m10:42:50.099950 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:42:50.100714 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'introspect': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'invocation_command': 'dbt init banking_dbt', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'profiles_dir': '/root/.dbt', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'quiet': 'False', 'fail_fast': 'False', 'target_path': 'None', 'empty': 'None', 'indirect_selection': 'eager', 'log_format': 'default', 'version_check': 'True', 'static_parser': 'True', 'log_path': 'logs'}
+[0m10:42:50.113164 [info ] [MainThread]: A project called banking_dbt already exists here.
+[0m10:42:50.117157 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.13709347, "process_in_blocks": "56", "process_kernel_time": 0.104013, "process_mem_max_rss": "95004", "process_out_blocks": "8", "process_user_time": 2.020255}
+[0m10:42:50.118303 [debug] [MainThread]: Command `dbt init` succeeded at 10:42:50.118120 after 0.14 seconds
+[0m10:42:50.118828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea6ea3820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea5d45570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea5d44d30>]}
+[0m10:42:50.119252 [debug] [MainThread]: Flushing usage events
+[0m10:42:52.853230 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:45:17.978110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8887f9f790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8886e24df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8886e24d90>]}
+
+
+============================== 10:45:17.983087 | 4303c159-cc2c-4a99-a50d-ee84d0db1de1 ==============================
+[0m10:45:17.983087 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:45:17.983936 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'quiet': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'introspect': 'True', 'debug': 'False', 'static_parser': 'True', 'invocation_command': 'dbt init banking_dbt', 'version_check': 'True', 'empty': 'None', 'indirect_selection': 'eager', 'target_path': 'None', 'profiles_dir': '/root/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'printer_width': '80', 'log_path': 'logs', 'write_json': 'True', 'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'partial_parse': 'True'}
+[0m10:45:17.997846 [debug] [MainThread]: Starter project path: /root/data_tuts/banking-modern-datastack/.venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:45:18.003002 [info ] [MainThread]: 
+Your new dbt project "banking_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:45:18.004717 [info ] [MainThread]: Setting up your profile.
+[0m10:47:26.152531 [info ] [MainThread]: Profile banking_dbt written to /root/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:47:26.155820 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 128.27711, "process_in_blocks": "0", "process_kernel_time": 0.091543, "process_mem_max_rss": "100184", "process_out_blocks": "88", "process_user_time": 2.041814}
+[0m10:47:26.156751 [debug] [MainThread]: Command `dbt init` succeeded at 10:47:26.156539 after 128.28 seconds
+[0m10:47:26.157412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8887f9f790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f88876a9f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8886494ac0>]}
+[0m10:47:26.158608 [debug] [MainThread]: Flushing usage events
+[0m10:47:28.115072 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:53:21.516303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37854937c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3784334e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3784334dc0>]}
+
+
+============================== 10:53:21.520033 | f565c90e-d44e-45ba-8bee-040d11410bad ==============================
+[0m10:53:21.520033 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:53:21.521090 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'profiles_dir': '/root/.dbt', 'printer_width': '80', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'use_experimental_parser': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'no_print': 'None', 'cache_selected_only': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt debug'}
+[0m10:53:21.551071 [info ] [MainThread]: dbt version: 1.11.2
+[0m10:53:21.552086 [info ] [MainThread]: python version: 3.10.12
+[0m10:53:21.552548 [info ] [MainThread]: python path: /root/data_tuts/banking-modern-datastack/.venv/bin/python
+[0m10:53:21.553212 [info ] [MainThread]: os info: Linux-5.15.0-91-generic-x86_64-with-glibc2.35
+[0m10:53:21.653362 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.trino'
+[0m10:53:21.660865 [info ] [MainThread]: Using profiles dir at /root/.dbt
+[0m10:53:21.661758 [info ] [MainThread]: Using profiles.yml file at /root/.dbt/profiles.yml
+[0m10:53:21.662471 [info ] [MainThread]: Using dbt_project.yml file at /root/data_tuts/banking-modern-datastack/dbt_project.yml
+[0m10:53:21.662798 [info ] [MainThread]: Configuration:
+[0m10:53:21.663055 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m10:53:21.663478 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:53:21.663840 [info ] [MainThread]: Required dependencies:
+[0m10:53:21.664163 [debug] [MainThread]: Executing "git --help"
+[0m10:53:21.667848 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:53:21.669236 [debug] [MainThread]: STDERR: "b''"
+[0m10:53:21.670213 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:53:21.671150 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m10:53:21.672292 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:53:21.673071 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "ecommerce_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type trino!
+
+
+[0m10:53:21.673486 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </root/data_tuts/banking-modern-datastack/dbt_project.yml> not found
+
+[0m10:53:21.674794 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.24967754, "process_in_blocks": "0", "process_kernel_time": 0.130463, "process_mem_max_rss": "100732", "process_out_blocks": "16", "process_user_time": 2.156732}
+[0m10:53:21.676186 [debug] [MainThread]: Command `dbt debug` failed at 10:53:21.675848 after 0.25 seconds
+[0m10:53:21.677065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37854937c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3784334d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f37844bf790>]}
+[0m10:53:21.678445 [debug] [MainThread]: Flushing usage events
+[0m10:53:23.466640 [debug] [MainThread]: An error was encountered while trying to flush usage events
