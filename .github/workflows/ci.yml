@@ -19,14 +19,6 @@ jobs:
           POSTGRES_DB: banking
         ports:
           - 5432:5432
-        command: >
-          bash -c "
-          docker-entrypoint.sh postgres &
-          until pg_isready -U ${POSTGRES_USER} -d banking; do sleep 1; done;
-          psql -U ${POSTGRES_USER} -d banking -c 'CREATE SCHEMA IF NOT EXISTS raw;';
-          psql -U ${POSTGRES_USER} -d banking -c 'CREATE SCHEMA IF NOT EXISTS analytics;';
-          wait
-          "
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
