@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from airflow import DAG
 from airflow.providers.standard.operators.python import PythonOperator
-from datetime import datetime, timedelta
+from datetime import datetime
 from dotenv import load_dotenv
 from psycopg2.extras import execute_values
 import json
