@@ -26,7 +26,7 @@ jobs:
           psql -U ${POSTGRES_USER} -d banking -c 'CREATE SCHEMA IF NOT EXISTS raw;';
           psql -U ${POSTGRES_USER} -d banking -c 'CREATE SCHEMA IF NOT EXISTS analytics;';
           wait
-        "
+          "
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
